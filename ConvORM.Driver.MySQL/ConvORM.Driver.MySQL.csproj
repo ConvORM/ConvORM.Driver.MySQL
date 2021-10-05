@@ -5,4 +5,14 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.26" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ConvORM">
+      <HintPath>..\..\ConvORM\ConvORM\bin\Debug\net5.0-windows\ConvORM.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
